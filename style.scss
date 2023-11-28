@@ -94,3 +94,37 @@ $bgc: #2b2b2b;
         margin-left: 117px;
     }
 }
+
+.logos{
+    display: flex;
+    height: 170px;
+    padding: 0px 100px;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 66px;
+    align-self: stretch;
+
+    img{
+        width: 931px;
+        height: 35px;
+        flex-shrink: 0;
+    }
+}
+
+.product{
+    padding: 100px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .screen{
+        border-radius: 20px;
+        background: #FDF5DF;
+    }
+
+    img{
+        width: 1080px;
+    }
+}

@@ -90,4 +90,36 @@
   background-color: rgba(211, 211, 211, 0.171);
   border-radius: 20px;
   margin-left: 117px;
+}
+
+.logos {
+  display: flex;
+  height: 170px;
+  padding: 0px 100px;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 66px;
+  align-self: stretch;
+}
+.logos img {
+  width: 931px;
+  height: 35px;
+  flex-shrink: 0;
+}
+
+.product {
+  padding: 100px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product .screen {
+  border-radius: 20px;
+  background: #FDF5DF;
+}
+.product img {
+  width: 1080px;
 }/*# sourceMappingURL=style.css.map */
