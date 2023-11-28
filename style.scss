@@ -1,0 +1,44 @@
+$bgc: #2b2b2b;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: $bgc;
+}
+
+.topbar{
+    width: 100%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 50px;
+    box-sizing: border-box;
+
+    span{
+        font-family: Poppins;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+    }
+    a{
+        text-decoration: none;
+        color: #fff;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        margin-left: 30px;
+    }
+    .hover{
+        padding: 9px 61px;
+        border-radius: 15px;
+        background: #BFAFF2;
+    }
+}
